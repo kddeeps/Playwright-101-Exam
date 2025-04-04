@@ -1,0 +1,299 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Ash\\Desktop\\learn-playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/Ash/Desktop/learn-playwright",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Ash/Desktop/learn-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Ash/Desktop/learn-playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/pw101.test.ts"
+        ],
+        "timeout": 80000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.51.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\pw101.test.ts",
+      "file": "tests/pw101.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Group all tests",
+          "file": "tests/pw101.test.ts",
+          "line": 41,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Scenario 1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 80000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 16363,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "url : https://www.lambdatest.com/selenium-playground/simple-form-demo\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-04-04T04:18:18.611Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1f761f039602d080302c-4e4ffa88f2c6315bac54",
+              "file": "tests/pw101.test.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Scenario 2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 80000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 16427,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-04-04T04:18:18.594Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1f761f039602d080302c-186e69603c9ecb1395e1",
+              "file": "tests/pw101.test.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Scenario 3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 80000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 35668,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-04-04T04:18:18.585Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1f761f039602d080302c-324e3e2f69eeb3b21f54",
+              "file": "tests/pw101.test.ts",
+              "line": 106,
+              "column": 9
+            },
+            {
+              "title": "Scenario 1 edge",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 80000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 36451,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "url : https://www.lambdatest.com/selenium-playground/simple-form-demo\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-04-04T04:18:18.660Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1f761f039602d080302c-1df3f066bc1a4d9db7b0",
+              "file": "tests/pw101.test.ts",
+              "line": 141,
+              "column": 9
+            },
+            {
+              "title": "Scenario 2 edge",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 80000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 59274,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-04-04T04:18:18.618Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1f761f039602d080302c-364db96fa15c19a8385c",
+              "file": "tests/pw101.test.ts",
+              "line": 165,
+              "column": 9
+            },
+            {
+              "title": "Scenario 3 edge",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 80000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 58559,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-04-04T04:18:18.641Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1f761f039602d080302c-b2580e9dbf31986a6035",
+              "file": "tests/pw101.test.ts",
+              "line": 203,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-04-04T04:18:16.727Z",
+    "duration": 61202.121,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
